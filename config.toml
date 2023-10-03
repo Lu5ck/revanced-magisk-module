@@ -18,10 +18,10 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx"
 
 [Music]
-build-mode = "both"
+build-mode = "module"
 app-name = "YouTube-Music"
 excluded-patches = ""
-included-patches = "background-play certificate-spoof enable-minimized-playback	enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hook-download-button return-youtube-dislike"
+included-patches = "background-play certificate-spoof enable-minimized-playback enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hook-download-button return-youtube-dislike"
 version = "auto"
 exclusive-patches = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
