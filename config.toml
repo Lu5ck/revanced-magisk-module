@@ -11,7 +11,7 @@ rv-brand = "ReVanced eXtended"
 [YouTube]
 build-mode = "module"
 excluded-patches = ""
-included-patches = "enable-external-browser enable-minimized-playback hide-channel-watermark hide-general-ads hide-video-ads return-youtube-dislike spoof-player-parameters"
+included-patches = "'Enable external browser' 'Enable minimized playback' 'Hide channel watermark' 'Hide general ads' 'Hide video ads' 'Return YouTube Dislike' 'Spoof player parameters'"
 version = "auto"
 exclusive-patches = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
@@ -21,7 +21,7 @@ module-prop-name = "yt-rvx"
 build-mode = "module"
 app-name = "YouTube-Music"
 excluded-patches = ""
-included-patches = "background-play certificate-spoof enable-minimized-playback enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hook-download-button return-youtube-dislike"
+included-patches = "'Background play' 'Certificate spoof' 'Enable minimized playback' 'Enable opus codec' 'Exclusive audio playback' 'Hide get premium' 'Hide music ads' 'Hook download button' 'Return YouTube Dislike'"
 version = "auto"
 exclusive-patches = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
