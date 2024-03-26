@@ -5,15 +5,15 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-#[YouTube]
-#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-#build-mode = "module"
-#included-patches = "'Video ads' 'Hide ads' 'Minimized playback' 'Remove tracking query parameter' 'Bypass URL redirects' 'Open links externally' 'Client spoof' 'HDR auto brightness' 'Playback speed' 'Remember video quality' 'External downloads' 'Copy video URL' 'Return YouTube Dislike'"
-#exclusive-patches = true
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+build-mode = "module"
+included-patches = "'Video ads' 'Hide ads' 'Minimized playback' 'Remove tracking query parameter' 'Bypass URL redirects' 'Open links externally' 'Client spoof' 'HDR auto brightness' 'Playback speed' 'Remember video quality' 'External downloads' 'Copy video URL' 'Return YouTube Dislike'"
+exclusive-patches = true
 
 [Music]
+version = "6.44.54"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 build-mode = "module"
 included-patches = "'Permanent repeat'"
-excluded-patches = "'GmsCore support'"
