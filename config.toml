@@ -13,6 +13,7 @@ exclusive-patches = true
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "arm64-v8a"
 build-mode = "module"
 included-patches = "'Permanent repeat'"
 excluded-patches = "'Music video ads' 'GmsCore support'"
